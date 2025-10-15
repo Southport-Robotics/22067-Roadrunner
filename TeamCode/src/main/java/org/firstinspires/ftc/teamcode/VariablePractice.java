@@ -17,6 +17,7 @@ public class VariablePractice extends OpMode {
         boolean clawClosed = true;
         String teamName = "Red Shift";
         int motorAngle = 120;
+        String Test = "chloe";
 
         //this displays things on the screen of the driver hub
         telemetry.addData("Team Number", teamNumber);
@@ -24,7 +25,7 @@ public class VariablePractice extends OpMode {
         telemetry.addData("Claw Closed", clawClosed);
         telemetry.addData("Name", teamName);
         telemetry.addData("Motor Angle", motorAngle);
-
+        telemetry.addData("Testging", Test)
     }
 
     @Override
