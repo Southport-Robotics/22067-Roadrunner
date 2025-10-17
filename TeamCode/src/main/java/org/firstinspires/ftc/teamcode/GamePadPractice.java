@@ -4,6 +4,7 @@ import com.qualcomm.robotcore.eventloop.opmode.Disabled;
 import com.qualcomm.robotcore.eventloop.opmode.OpMode;
 import com.qualcomm.robotcore.eventloop.opmode.TeleOp;
 
+@Disabled
 @TeleOp
 public class GamePadPractice extends OpMode {
 
@@ -11,7 +12,6 @@ public class GamePadPractice extends OpMode {
     public void init() {
 
     }
-@Disabled
     @Override
     public void loop() {
     // Runs 50x a second
