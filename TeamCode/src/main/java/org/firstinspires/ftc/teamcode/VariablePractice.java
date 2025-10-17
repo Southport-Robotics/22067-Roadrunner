@@ -25,7 +25,7 @@ public class VariablePractice extends OpMode {
         telemetry.addData("Claw Closed", clawClosed);
         telemetry.addData("Name", teamName);
         telemetry.addData("Motor Angle", motorAngle);
-        telemetry.addData("Testging", Test)
+        telemetry.addData("Testging", Test);
     }
 
     @Override
